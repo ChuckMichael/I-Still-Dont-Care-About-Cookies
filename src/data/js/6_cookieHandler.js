@@ -549,34 +549,133 @@ function getE(hostname) {
     case "tab.digital":
       return ["t_cookiesConsentGiven=true", "t_cookiesCategories=[]"];
     case "bootstrap.academy":
-      return ["agreedToCookiePolicy=true"];  
+      return ["agreedToCookiePolicy=true"];
     case "tarifcheck-partnerprogramm.de":
-      return [
-        "mrk=no",
-        "stats=no",
-        "tech=yes",
-      ];
+      return ["mrk=no", "stats=no", "tech=yes"];
     case "ulm-dsl.de":
       return ["eu-cookie=1"];
     case "flying-pizza.de":
-      return ['allow_cookies={"essential":"1","functional":{"all":"0"},"marketing":{"all":"0"}}'];
+      return [
+        'allow_cookies={"essential":"1","functional":{"all":"0"},"marketing":{"all":"0"}}',
+      ];
     case "seriesmania.com":
       return ["accept-cookie=no"];
     case "zlocinozrouti.cz":
-      return ['cookiesRules={"analytics":false,"personalized":false,"ads":false}'];
+      return [
+        'cookiesRules={"analytics":false,"personalized":false,"ads":false}',
+      ];
     case "sportrebel.pl":
       return ["sportrebel_retry_cookie_request=0"];
     case "carry.pl":
       return ["__carry_cookie_module=2"];
     case "supermercadosmas.com":
-      return ["amcookie_allowed=0", "amcookie_disallowed=recently_viewed_product%2Crecently_viewed_product_previous%2Crecently_compared_product%2Crecently_compared_product_previous%2C_ga%2C_gid%2C_gat"];
+      return [
+        "amcookie_allowed=0",
+        "amcookie_disallowed=recently_viewed_product%2Crecently_viewed_product_previous%2Crecently_compared_product%2Crecently_compared_product_previous%2C_ga%2C_gid%2C_gat",
+      ];
     case "kanalsportowy.pl":
-      return ["eupubconsent-v2=CPmWSYAPmWSYAF_AAAENC1CgAAAAAAAAAB5YAAAAAAAA.YAAAAAAABQAAAAAA"];
+      return [
+        "eupubconsent-v2=CPmWSYAPmWSYAF_AAAENC1CgAAAAAAAAAB5YAAAAAAAA.YAAAAAAABQAAAAAA",
+      ];
     case "huutokaupat.com":
-      return ["consent-data-v2=mandatory"]    
+      return ["consent-data-v2=mandatory"];
     case "seb.se":
-      return ["AcceptedCookieCategories=0%"]   
-  
+      return ["AcceptedCookieCategories=0%"];
+    case "skyscanner.net":
+    case "skyscanner.ru":
+    case "skyscanner.fi":
+    case "skyscanner.no":
+    case "skyscanner.nl":
+    case "skyscanner.ro":
+    case "skyscanner.com.ni":
+    case "skyscanner.at":
+    case "skyscanner.com.sg":
+    case "skyscanner.es":
+    case "skyscanner.co.nz":
+    case "skyscanner.com.sa":
+    case "skyscanner.com.bo":
+    case "skyscanner.com.br":
+    case "skyscanner.mx":
+    case "skyscanner.it":
+    case "skyscanner.ae":
+    case "skyscanner.in":
+    case "skyscanner.com.sv":
+    case "skyscanner.ie":
+    case "skyscanner.co.kr":
+    case "skyscanner.com.pe":
+    case "skyscanner.com.ph":
+    case "skyscanner.com.pa":
+    case "skyscanner.hu":
+    case "skyscanner.com.gt":
+    case "skyscanner.com.co":
+    case "skyscanner.dk":
+    case "skyscanner.co.th":
+    case "skyscanner.com.hn":
+    case "skyscanner.pt":
+    case "skyscanner.tw":
+    case "skyscanner.de":
+    case "skyscanner.com.hk":
+    case "skyscanner.com.tw":
+    case "skyscanner.pl":
+    case "skyscanner.com.tr":
+    case "skyscanner.cz":
+    case "skyscanner.com":
+    case "skyscanner.cr":
+    case "skyscanner.com.py":
+    case "skyscanner.cl":
+    case "skyscanner.com.ua":
+    case "skyscanner.com.do":
+    case "skyscanner.kr":
+    case "skyscanner.co.id":
+    case "skyscanner.ch":
+    case "skyscanner.gg":
+    case "skyscanner.ca":
+    case "skyscanner.com.uy":
+    case "skyscanner.com.ec":
+    case "skyscanner.co.il":
+    case "skyscanner.co.in":
+    case "skyscanner.com.vn":
+    case "skyscanner.se":
+    case "skyscanner.com.ar":
+    case "skyscanner.com.au":
+    case "skyscanner.fr":
+    case "skyscanner.jp":
+    case "skyscanner.com.my":
+    case "skyscanner.com.mx":
+      return ["gdpr=information&adverts&version:::2"];
+    case "dslbank.de":
+      return ["Cookieinfoauswahl=false"];
+    case "nadia.gov.gr":
+      return ["consent-status=000"];
+    case "stevensbikes.de":
+      return [
+        "stv_cconsent_statistics=0",
+        "stv_cconsent_external=0",
+        "stv_cconsent_required=1",
+      ];
+    case "59northwheels.se":
+      return ["cookie_accepted=1"];
+    case "startfrei.at":
+      return [
+        "jart_cookie_consent=%5B%7B%22name%22%3A%22essential%22%2C%22value%22%3A%22true%22%7D%5D",
+      ];
+    case "voordeeluitjes.nl":
+      return ["vu.cookieconsent=true"];
+    case "sportano.pl":
+    case "sportano.cz":
+    case "sportano.ro":
+    case "sportano.hu":
+    case "sportano.de":
+    case "sportano.sk":
+      return [
+        'cookieDataLayer={"niezbedne":{"isEssential":1,"code":"niezbedne","name":"Niezb%u0119dne","isChecked":true,"children":[]},"analiza":{"isEssential":0,"code":"analiza","name":"Analiza%20i%20funkcjonalno%u015B%u0107","isChecked":false,"children":[{"isEssential":0,"code":"google analytics","name":"Google%20Analytics%20%28GA%29","isChecked":false},{"isEssential":0,"code":"hotjar","name":"Hotjar","isChecked":false}]},"marketing":{"isEssential":0,"code":"marketing","name":"Marketing","isChecked":false,"children":[{"isEssential":0,"code":"facebook","name":"Facebook","isChecked":false},{"isEssential":0,"code":"synerise","name":"Synerise","isChecked":false},{"isEssential":0,"code":"thulium","name":"Thulium","isChecked":false},{"isEssential":0,"code":"circlewise","name":"Circlewise","isChecked":false},{"isEssential":0,"code":"wppl","name":"WPPL","isChecked":false},{"isEssential":0,"code":"rtb_house","name":"RTB%20House","isChecked":false},{"isEssential":0,"code":"criteo","name":"Criteo","isChecked":false},{"isEssential":0,"code":"tradedoubler","name":"Tradedoubler","isChecked":false},{"isEssential":0,"code":"googleads","name":"Google%20Ads","isChecked":false}]}}',
+      ];
+    case "datarejestracji.senda.pl":
+      return ["cookieConsent3=true"];
+    case "ebatpro.fr":
+      return ["cookie_necessity=1", "cookie_performance=0"];
+    case "autohaus24.de":
+      return ["user_cookie_consent=essential"];
   }
 
   const parts = hostname.split(".");
