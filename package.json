@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/OhMyGuus/I-Dont-Care-About-Cookies#readme",
   "devDependencies": {
-    "eslint": "^8.40.0",
+    "eslint": "^8.41.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
